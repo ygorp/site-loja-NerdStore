@@ -175,3 +175,8 @@ main img {
   font-family: 'Dongle', sans-serif;
   font-weight: 400;
 }
+
+.rodape-rede-social img {
+  width: 2rem;
+  height: 2rem;
+}
