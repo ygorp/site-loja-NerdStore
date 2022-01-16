@@ -9,6 +9,7 @@
 
 header {
   background-color: #ffffff;
+  border-bottom: 8px solid #333333;
 }
 
 .menu {
@@ -55,4 +56,29 @@ cursor: pointer;
 
 .menu-botao button:hover {
   background: #241714;
+}
+
+.main-slide-img {
+  display: block;
+  height: 293px;
+  width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+}
+
+.main-slide-img li {
+  position: absolute;
+  list-style: none;
+}
+
+.main-slide-img img {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  vertical-align: top;
+}
+
+.main-slide-img input {
+  display: none;
 }
