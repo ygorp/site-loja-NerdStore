@@ -92,3 +92,26 @@ main img {
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
 }
+
+.sobre {
+  text-align: center;
+  padding: 30px;
+}
+
+.sobre-titulo {
+  color: #dd1818;
+  text-transform: uppercase;
+  font-size: 70px;
+  font-family: 'Dongle', sans-serif;
+}
+
+.sobre-paragrafo {
+  color: #333333;
+  font-size: 35px;
+  font-family: 'Dongle', sans-serif;
+}
+
+.faca-cadastro {
+  text-align: center;
+  padding: 30px;
+}
