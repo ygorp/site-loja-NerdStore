@@ -143,3 +143,22 @@ main img {
   border-radius: 10%;
   border: 8px solid #333333;
 }
+
+.botao-cadastro button {
+  background: #333333;
+  background: -webkit-linear-gradient(to right, #dd1818, #333333);
+  background: linear-gradient(to right, #dd1818, #333333);
+  width: 65px;
+  height: 35px;
+  color: #ffffff;
+  font-family: 'Dongle', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 25px;
+}
