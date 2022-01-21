@@ -112,6 +112,8 @@ main img {
 }
 
 .faca-cadastro {
+  background-color: #333333;
+  background: url(/img/starwars.jpg);
   text-align: center;
   padding: 25px;
 }
@@ -132,8 +134,9 @@ main img {
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: 'Dongle', sans-serif;
-  font-weight: 400;
+  font-weight: 400 bold;
   font-size: 35px;
+  color: crimson;
 }
 
 .input input {
