@@ -16,6 +16,14 @@ firstLevel.forEach( item => {
 
 
     const children = data.filter(child => child.parent === item.id)
+
+    li.addEventListener('click', event => {
+      event.stopPropagation()
+      event.target.classList.toggle('open')
+    })
+
+    li.classList.add('has-children')
+
     children.forEach( child => {
 
         const subMenu = document.createElement('ul')
