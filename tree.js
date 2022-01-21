@@ -17,10 +17,15 @@ firstLevel.forEach( item => {
 
     const children = data.filter(child => child.parent === item.id)
     children.forEach( child => {
+
+        const subMenu = document.createElement('ul')
+
         const li2 = document.createElement('li')
         li2.innerHTML = child.name
 
-        li.append(li2)
+        subMenu.append(li2)
+
+        li.append(subMenu)
     })
 
 
