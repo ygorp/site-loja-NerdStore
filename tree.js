@@ -1,19 +1,16 @@
-export default function(data) {
+export default function (data) {
   //pega a tag principal que irá receber o menu
   const tree = document.querySelector('nav#tree')
-  
+
   //recebe toda a arvore de elementos
   const menu = document.createElement('ul')
 
+  const firstLevel = data.filter(item => !item.parent)
 
-
-const firstLevel = data.filter(item => !item.parent)
-
-firstLevel.forEach( item => {
+  firstLevel.forEach(item => {
     //primeiro elemento
     const li = document.createElement('li')
     li.innerHTML = item.name
-
 
     const children = data.filter(child => child.parent === item.id)
 
@@ -24,39 +21,21 @@ firstLevel.forEach( item => {
 
     li.classList.add('has-children')
 
-    children.forEach( child => {
+    children.forEach(child => {
+      const subMenu = document.createElement('ul')
 
-        const subMenu = document.createElement('ul')
+      const li2 = document.createElement('li')
+      li2.innerHTML = child.name
 
-        const li2 = document.createElement('li')
-        li2.innerHTML = child.name
+      subMenu.append(li2)
 
-        subMenu.append(li2)
-
-        li.append(subMenu)
+      li.append(subMenu)
     })
 
-
-
-     //adicionar os elementos ao ul
+    //adicionar os elementos ao ul
     menu.append(li)
-});
-
-
-
-
-
-
-
-
-
-
-  
-   
-
- 
+  })
 
   //adiciona o menu no HTML
   tree.append(menu)
-
 }
