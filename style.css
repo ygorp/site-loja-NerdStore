@@ -112,8 +112,6 @@ main img {
 }
 
 .faca-cadastro {
-  background-color: #333333;
-  background: url(/img/starwars.jpg);
   text-align: center;
   padding: 25px;
 }
@@ -136,14 +134,14 @@ main img {
   font-family: 'Dongle', sans-serif;
   font-weight: 400 bold;
   font-size: 35px;
-  color: crimson;
+  color: #333333;
 }
 
 .input input {
   width: 500px;
   height: 35px;
   border-radius: 10%;
-  border: 8px solid #333333;
+  border: 8px solid #dd1818;
 }
 
 .botao-cadastro button {
