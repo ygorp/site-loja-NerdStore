@@ -33,10 +33,9 @@ header {
 .menu-item-link {
   padding: 20px;
   color: #db1414;
-  font-size: 25px;
-  font-family: 'Dongle', sans-serif;
+  font-size: 20px;
+  font-family: 'Shadow', sans-serif;
   font-weight: 400;
-  text-transform: uppercase;
 }
 
 .menu-item-link:hover {
@@ -46,10 +45,9 @@ header {
 
 nav#tree {
   color: #db1414;
-  font-family: 'Dongle', sans-serif;
-  font-size: 25px;
+  font-family: 'Shadow', sans-serif;
+  font-size: 20px;
   font-weight: 400;
-  text-transform: uppercase;
   margin-top: 5px;
   margin-left: 120px;
   max-width: 300px;
@@ -177,9 +175,9 @@ main img {
   text-align: center;
   margin-top: 15px;
   margin-bottom: 15px;
-  font-family: 'Dongle', sans-serif;
+  font-family: 'Shadow', sans-serif;
   font-weight: 400 bold;
-  font-size: 35px;
+  font-size: 25px;
   color: #333333;
 }
 
@@ -215,15 +213,15 @@ main img {
 
 .rodape {
   display: flex;
+  align-items: center;
   justify-content: space-around;
   padding: 25px;
   color: #dd1818;
-  font-size: 30px;
-  font-family: 'Dongle', sans-serif;
+  font-size: 20px;
+  font-family: 'Shadow', sans-serif;
   font-weight: 400;
 }
 
 .rodape-rede-social img {
   width: 2rem;
-  height: 2rem;
 }
