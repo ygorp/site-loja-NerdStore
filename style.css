@@ -154,7 +154,7 @@ main img {
 
 .faca-cadastro {
   text-align: center;
-  padding: 25px;
+  padding: 15px;
 }
 
 .faca-cadastro-titulo {
@@ -165,13 +165,13 @@ main img {
 }
 
 .input {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .input h2 {
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   font-family: 'Dongle', sans-serif;
   font-weight: 400 bold;
   font-size: 35px;
@@ -182,14 +182,14 @@ main img {
   width: 500px;
   height: 35px;
   border-radius: 10%;
-  border: 8px solid #dd1818;
+  border: 4px solid #dd1818;
 }
 
 .botao-cadastro button {
   background: #333333;
   background: -webkit-linear-gradient(to right, #dd1818, #333333);
   background: linear-gradient(to right, #dd1818, #333333);
-  width: 65px;
+  width: 120px;
   height: 35px;
   color: #ffffff;
   font-family: 'Dongle', sans-serif;
