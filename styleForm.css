@@ -7,15 +7,21 @@
   box-sizing: border-box;
 }
 
+body {
+  background: url(/img/mario.jpg);
+}
+
 .login {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  height: 100%;
-  padding-top: 500px;
-  padding-bottom: 500px;
+  width: 50%;
+  height: 50%;
+  margin-top: 500px;
+  margin-left: 300px;
+  margin-bottom: 500px;
   background-color: #db1414;
+  border: 3px solid #241714;
 }
 
 .login-titulo {
@@ -37,8 +43,8 @@
 }
 
 input {
-  width: 40rem;
-  height: 2rem;
+  width: 30rem;
+  height: 2.5rem;
   border: 4px solid #241714;
   border-radius: 10%;
 }
@@ -53,6 +59,7 @@ input {
   font-size: 25px;
   border-radius: 10%;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   cursor: pointer;
 }
 
